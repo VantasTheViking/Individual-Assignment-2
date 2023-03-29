@@ -59,8 +59,9 @@ c.rgb += _ShadowColor.xyz * (1.0 - atten);
 
 c.a = s.Alpha;
 
-return c;
-Implements standard diffuse lighting on the material.
+return c; <br />
+Implements standard diffuse lighting on the material. <br />
+
 Since atten (light attenuation) gives the value based on how much light is spread on the object (basically the strength of the light), the inverse of atten gives the strength of the shadow, this means that the shadow color is applied to the material based on how the strength of the shadow. 
 
 Overall the code first applies the colour of the object based on diffuse lighting and then applies the shadow colour based on the inverse of the light attenuation. This would result to possibly making no dark spots in the object as the would be dark spots are being covered by ShadowColor.
