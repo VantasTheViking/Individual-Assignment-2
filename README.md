@@ -65,7 +65,7 @@ Since atten (light attenuation) gives the value based on how much light is sprea
 
 Overall the code first applies the colour of the object based on diffuse lighting and then applies the shadow colour based on the inverse of the light attenuation. This would result to possibly making no dark spots in the object as the would be dark spots are being covered by ShadowColor.
 
-I can see this being used recreate certain artstyles, similar to the artist for JoJo’s Bizzare Adventure, where shadows were changed to have odd colours to enhance the bizarre feel of the art, like purple shadows over a cloudy day, I think they might have done this for the new 3D JoJo’s fighting game.
+I can see this being used recreate certain artstyles, similar to the artist for JoJo’s Bizzare Adventure, where character shadows were changed to have odd colours to enhance the bizarre feel of the art, like purple shadows over a cloudy day, I think they might have done this for the new 3D JoJo’s fighting game.
 
 
 
@@ -79,3 +79,6 @@ A good application of this shader is on cartoon and anime style games, Hi-Fi rus
 
 Uploading to Github:
 20Min
+
+Self-Evaluation:
+
