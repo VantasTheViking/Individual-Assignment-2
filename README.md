@@ -81,4 +81,4 @@ Uploading to Github:
 20Min
 
 Self-Evaluation:
-
+I would give myself a grade of around 94%, I think I've explained the code well enough to avoid any confusion and show that I know how it works, and the changes to the original code and where I implemented the shaders seems to fit with how the game would play out like using vertex extrusion to show the shark getting fatter as it eats more, and adding outlines to the main objects to guide the player's eyes to them more. For my implementation of the square wave, I think that is one of the better ways of doing it, though it would be better if there was a signum fuction that would return -1, or 1, then multiply with the amp of the wave instead of doing an if statement, however, I couldn't find a function for signnum.
