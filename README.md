@@ -1,6 +1,6 @@
 Task 1
 Time: 40Min
-![Alt Text](https://github.com/VantasTheViking/Individual-Assignment-2/blob/main/Assets/Scene1/Images/pasted%20image%200%20.png)
+![Alt Text](https://github.com/VantasTheViking/Individual-Assignment-2/blob/main/Assets/Scene1/Images/pasted%20image%200.png)
 Forward rendering involves doing multiple lighting passes (depending on the number of lights affecting it )on each object after rendering to give it lighting.
 Deferred Rendering applies shading to the objects all at once making the lighting happen in one pass, giving a better performance.
 
