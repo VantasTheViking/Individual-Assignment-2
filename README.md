@@ -1,5 +1,6 @@
 Task 1
 Time: 40Min
+![Alt Text](https://github.com/VantasTheViking/Individual-Assignment-2/blob/main/Assets/Scene1/Images/pasted%20image%200%20(1).png)
 Forward rendering involves doing multiple lighting passes (depending on the number of lights affecting it )on each object after rendering to give it lighting.
 Deferred Rendering applies shading to the objects all at once making the lighting happen in one pass, giving a better performance.
 
@@ -22,7 +23,7 @@ foreach light
 
 Task 2:
 Time 1:30
-
+![Alt Text](https://github.com/VantasTheViking/Individual-Assignment-2/blob/main/Assets/Scene1/Images/pasted%20image%200%20(1).png)
 The toon shader was applied on the shark and island and a wave shader on the water which modifies the normals of the plane.
 The main modification I made was a brightness variable that modifies the color of the toon ramp color to make it lighter or darker. I mainly wanted to make the shark more brighter as it is the main object in the picture.
 
@@ -37,7 +38,7 @@ This can be useful for players who use higher resolutions on their games than wh
 
 Task 4:
 Time: 20 min
-
+![Alt_Text](https://github.com/VantasTheViking/Individual-Assignment-2/blob/main/Assets/Scene1/Images/pasted%20image%200%20(2).png)
 For outlines, it was implemented on the shark and the boat, while vert extrude was implement on the shark since it could be used as a way to show the shark getting fatter by having a script modify the extrude variable.
 The main modification is in the shark shader where I had both the extrude and outline effect on the shark. The main problem I found was that it was possible for the extrusion to become bigger than the outline effect so I had the outline’s size also be affected by the extrusion strength, unless the extrusion strength is at a negative as to avoid having negative outlines.
 
@@ -70,7 +71,8 @@ I can see this being used recreate certain artstyles, similar to the artist for 
 
 Task 6: Shadow Texture Shader
 Time: 10 Min
-
+![Alt_Text](https://github.com/VantasTheViking/Individual-Assignment-2/blob/main/Assets/Scene1/Images/pasted%20image%200%20(3).png)
+![Alt_Text](https://github.com/VantasTheViking/Individual-Assignment-2/blob/main/Assets/Scene1/Images/pasted%20image%200%20(4).png)
 For the shader, first find dot product between the normals of the world and the position of the world light source, if its lower than 0 then its a shadow (Shadow Attenuation). Then if the shadow attenuation is 1 apply the object’s texture else if its a 0 apply the shadow’s texture. If you want to have shadow texture’s colour slightly affected by the object’s colour multiply the shadow’s colour with the object and a strength variable to have control on how strong shadows are. 
 
 A good application of this shader is on cartoon and anime style games, Hi-Fi rush uses shadow textures by applying a line texture over their shadows to give it a anime/manga feel to the game. Same can be done if DC or Marvel wants to make a superhero comic style game that wants to capture the feeling of reading a 3D interactive comic by having a repeating circle texture on dark areas of the screen.
