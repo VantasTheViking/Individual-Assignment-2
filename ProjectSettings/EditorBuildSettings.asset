@@ -6,6 +6,6 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scene1/JawsPart2.unity
-    guid: 9d81599f8edec3d4680c18f4e102caaa
+    path: Assets/Scene1/JawsPart1.unity
+    guid: cfadcd287e28a214686aca4ea4a0d0b1
   m_configObjects: {}
